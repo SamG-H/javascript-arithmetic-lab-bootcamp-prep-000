@@ -5,3 +5,7 @@ function add(x, y){
 function subtract(x, y){
   return x - y;
 }
+
+function mutiply(x, y){
+  return x * y;
+}
