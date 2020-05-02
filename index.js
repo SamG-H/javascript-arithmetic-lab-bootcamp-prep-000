@@ -22,6 +22,10 @@ function decrement(n){
   return --n;
 }
 
-function parseInt(n){
+function makeInt(n){
+  int = parseInt(n, 10);
+  if(int.isNaN)
+    return NaN;
+    
   
 }
