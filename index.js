@@ -29,3 +29,11 @@ function makeInt(n){
   else
     return int;
 }
+
+function preserveDecimal(n){
+  var float = parseFloat(n);
+  if(float.isNaN)
+    return NaN;
+  else
+    return float;
+}
