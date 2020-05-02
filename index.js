@@ -9,3 +9,7 @@ function subtract(x, y){
 function mutiply(x, y){
   return x * y;
 }
+
+function divide(x, y){
+  return x / y;
+}
